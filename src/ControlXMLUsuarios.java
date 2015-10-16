@@ -14,7 +14,7 @@ public class ControlXMLUsuarios {
 			usuarios = app.parseXML("<usuarios></usuarios>");
 		}
 	}
-
+	
 	public boolean agregarUsuario(String usuario, String contrasena) {
 		boolean existe = false;
 		boolean agregado = false;
