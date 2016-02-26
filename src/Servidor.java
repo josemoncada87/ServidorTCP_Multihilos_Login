@@ -9,6 +9,7 @@ import processing.core.PApplet;
 
 public class Servidor extends Thread implements Observer {
 
+	/*slkjbvl-sadkbvglsadkbflsdblf*/
 	private ServerSocket ss;
 	private ArrayList<ControlCliente> clientes;
 	private ControlXMLUsuarios cxml;
