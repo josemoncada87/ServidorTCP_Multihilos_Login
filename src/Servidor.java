@@ -12,7 +12,7 @@ public class Servidor extends Thread implements Observer {
 	private ServerSocket ss;
 	private ArrayList<ControlCliente> clientes;
 	private ControlXMLUsuarios cxml;
-
+/*.....*/
 	public Servidor(PApplet app) {
 		cxml = new ControlXMLUsuarios(app);
 		clientes = new ArrayList<ControlCliente>();
